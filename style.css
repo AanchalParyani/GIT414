@@ -17,10 +17,15 @@ body {
     grid-template-columns : 1fr;
 }
 /* MEDIA QUERY (medium) */
-@media screen and (min-width: 1512px) {
+@media screen and (min-width: 951px) {
 body{
     grid-template-columns : 1fr 1fr;
 }
+}
+@media screen and (min-width: 651px) {
+    body{
+        grid-template-columns : 2fr 2fr;
+    }
 }
 /* MEDIA QUERY (large) */
 /* MEDIA QUERY (xl) */
